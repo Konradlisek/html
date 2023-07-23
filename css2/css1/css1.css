@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box-model {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  margin: 50px 0;
+}
+.red {
+  background-color: tomato;
+  transition: width 0.3s;
+}
+.red:hover {
+  width: 300px;
+}
+.blue {
+  background-color: royalblue;
+  transition: height 0.3s;
+}
+.blue:hover {
+  height: 300px;
+}
+.green {
+  background-color: greenyellow;
+  transition: height 0.3s, width 0.3s;
+}
+.green:hover {
+  height: 300px;
+  width: 300px;
+}
