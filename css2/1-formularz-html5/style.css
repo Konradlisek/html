@@ -23,11 +23,9 @@ textarea:focus {
   border: 1px solid #fff;
 }
 
-input[type="checkbox "],
+input[type="checkbox"],
 input[type="radio"],
-#agreement {
-  width: auto;
-}
+
 label {
   display: block;
   margin-bottom: 2px;
